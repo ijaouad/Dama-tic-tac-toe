@@ -3,7 +3,6 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'Poppins';
-    text-decoration: none;
 }
 
 body {
@@ -114,6 +113,7 @@ table {
     color: #fff;
     background: #111;
     padding: 10px 20px;
+    text-decoration: none;
 }
 
 .dm span {
@@ -142,4 +142,7 @@ footer {
     bottom: 0;
 }
 
-footer a {  color: #111; }
+footer a {  
+    color: #111; 
+    text-decoration: none;
+}
