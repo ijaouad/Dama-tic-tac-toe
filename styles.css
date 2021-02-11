@@ -1,0 +1,145 @@
+* , a{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+    text-decoration: none;
+}
+
+body {
+    background: #ffd400;
+}
+
+
+.dama-container{
+    text-align: center;
+}
+
+.players {
+    background: #111;
+    color: #fff;
+    padding: 20px;
+}
+
+.players label {
+    font-size: 1.8rem;
+    font-weight: 500;
+    vertical-align: middle;
+}
+
+.players input {
+    width: 20px;
+    height: 20px;
+}
+
+.players input:hover {
+    cursor: pointer;
+}
+
+#player-x{
+    margin-right: 40px;
+}
+
+.players label img {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    vertical-align: middle;
+    margin: 0 10px;
+}
+
+
+.score-player-x, .score-player-o {
+    position: absolute;
+    background: #ffec8a;
+    border: 5px solid #111;
+    padding: 10px;
+    top: 40%;
+}
+
+.score{
+    font-size: 1.2rem;
+}
+
+.score-player-x {
+    left: 50px;
+}
+
+.score-player-o {
+    right: 50px;
+}
+
+.num {
+    display: block;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+table {
+    margin: 30px auto 40px;
+}
+
+.dama {
+    width: 420px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.dm {
+    width: 140px;
+    height: 140px;
+    border: 3px solid #111;
+}
+
+.dm:hover {
+    cursor: pointer;
+    background: #ffffff3a;
+}
+
+.brdr-top{
+    border-top: none;
+}
+.brdr-btm{
+    border-bottom: none;
+}
+.brdr-lft{
+    border-left: none;
+}
+.brdr-rgt{
+    border-right: none;
+}
+
+.replay-game a {
+    font-size: 1.3rem;
+    color: #fff;
+    background: #111;
+    padding: 10px 20px;
+}
+
+.dm span {
+    font-size: 7rem;
+    text-align: center;
+    line-height: 140px;
+}
+
+.x{
+    color: #000000;
+}
+
+.o{
+    color: #ff0202;
+}
+
+.winner {
+    background: #66ff00;
+}
+
+footer {
+    padding: 7px;
+    width: 100%;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+}
+
+footer a {  color: #111; }

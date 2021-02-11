@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DAMA | Tic Tac Toe</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="images/logo.svg">
+</head>
+<body>
+
+    <div class="dama-container">
+
+        <div class="players">
+            <label for="player-x">
+                <span>Player X</span>
+                <img src="images/player-x.png" alt="">
+            </label>
+            <input type="radio" name="play" id="player-x">
+            
+            <input type="radio" name="play" id="player-o">
+            <label for="player-o">
+                <img src="images/player-o.png" alt="">
+                <span>Player O</span>
+            </label>
+
+        </div>
+
+        <div class="dama-score">
+            <div class="score-player-x">
+                <span id="x-score" class="num">0</span>
+                <span class="score">X Score</span>
+            </div>
+            <div class="score-player-o">
+                <span id="o-score" class="num">0</span>
+                <span class="score">O Score</span>
+            </div>
+        </div>
+        
+        <table>
+            <tr class="dama">
+                <td id="1" class="dm brdr-top brdr-lft"></td>
+                <td id="2" class="dm brdr-top"></td>
+                <td id="3" class="dm brdr-top brdr-rgt"></td>
+                <td id="4" class="dm brdr-lft"></td>
+                <td id="5" class="dm"></td>
+                <td id="6" class="dm brdr-rgt"></td>
+                <td id="7" class="dm brdr-lft brdr-btm"></td>
+                <td id="8" class="dm brdr-btm"></td>
+                <td id="9" class="dm brdr-rgt brdr-btm"></td>
+            </tr>
+        </table>
+
+        <div class="replay-game">
+            <a id="replay" href="#">Replay</a>
+        </div>
+
+        <footer>
+            <p>Made with ❤ by <a href="https://instagr.am/ichi.dev" target="_blank">ichi.dev</a></p>
+        </footer>
+    
+    
+    </div>
+    
+
+    <script src="app.js"></script>
+</body>
+</html>
